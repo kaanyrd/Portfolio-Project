@@ -866,6 +866,109 @@ font-size: 1rem;
         column-gap: 3rem;
     }
 }
-
-
 /* END OF SKILLS */
+/* TIMELINE */
+.timeline{
+    padding: 5rem 0;
+}
+.timeline-main-title{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.timeline-title-underline{
+    background-color: var(--clr-primary-5);
+    width: 10rem;
+    height: 8px;
+    margin: 0 auto 4rem auto;
+    border-radius: 20px;
+}
+.timeline-center{
+    max-width: 650px;
+    width: 80vw;
+    margin: 0 auto;
+    /* border: 3px solid red; */
+}
+.timeline-title{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    letter-spacing: 3px;
+}
+.timeline-text{
+    font-size: 1rem;
+    line-height: 2;
+}
+.timeline-number{
+    background-color: orange;
+    padding: .5rem 1rem;
+    border-radius: 50%;
+}
+.line{
+    /* border: 3px solid black; */
+    /* margin-bottom: 2rem; */
+    position: relative;
+    padding: 3rem;
+}
+.line:nth-child(odd){
+    border-right: 3px dashed var(--clr-primary-5);
+    border-bottom: 3px dashed var(--clr-primary-5);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 1.3rem;
+}
+.line:nth-child(even){
+    border-left: 3px dashed var(--clr-primary-5);
+    border-bottom: 3px dashed var(--clr-primary-5);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-right: 1.3rem;
+}
+.line:last-child{
+    border-bottom: 0px;
+    border-bottom-left-radius: 0px;
+}
+.line:first-child{
+    border-top-right-radius: 0px;
+}
+.line:nth-child(odd) .timeline-number{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(50% , -50%);
+}
+.line:nth-child(even) .timeline-number{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+/* END OF TIMELINE */
+/* BLOG */
+.blog{
+    background-color: #f1f5f8;
+    padding: 5rem 0;
+}
+.blog-main-title{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.blog-main-title-underline{
+    background-color: var(--clr-primary-5);
+    width: 5rem;
+    height: 8px;
+    margin: 0 auto 4rem auto;
+    border-radius: 20px;
+}
+.blog-center{
+    max-width: 1170px;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+
+
+
+/* CARDS */
+
+/* END OF BLOG */
